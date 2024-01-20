@@ -17,5 +17,13 @@ namespace pong_amogus {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void Window_MouseMove(object sender, MouseEventArgs e) {
+
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e) {
+
+        }
     }
 }
