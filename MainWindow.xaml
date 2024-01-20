@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pong_amogus"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Black"
+        MouseMove="Window_MouseMove"
+        KeyDown="Window_KeyDown">
     <Grid>
-
+        <Canvas Width="800"
+                Height="450">
+            <Label x:Name="PlayerScore" Content="0" FontSize="20" Foreground="white"/>
+        </Canvas>
     </Grid>
 </Window>
